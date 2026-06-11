@@ -1,9 +1,5 @@
 @echo off
-title Nexus Grabber Builder - Authorized Pentesting
-echo ============================================
-echo  Nexus Grabber Builder Setup
-echo  FOR AUTHORIZED SECURITY TESTING ONLY
-echo ============================================
+title Nexus Grabber Cracked - discord.gg/ARZSbuRE7m
 echo.
 
 python --version >nul 2>&1
@@ -25,6 +21,7 @@ if %errorlevel% neq 0 (
 )
 
 echo [*] Dependencies installed successfully.
+type acsii.txt
 echo.
 
 if exist "builder_gui.py" (
@@ -34,3 +31,4 @@ if exist "builder_gui.py" (
     pause
     exit /b 1
 )
+
