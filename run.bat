@@ -1,4 +1,5 @@
 @echo off
+mode con: cols=135 lines=80
 title Nexus Grabber Cracked - discord.gg/ARZSbuRE7m
 echo.
 
