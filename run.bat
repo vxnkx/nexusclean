@@ -14,7 +14,7 @@ if %errorlevel% neq 0 (
 echo [*] Python detected. Installing dependencies...
 echo.
 
-pip install customtkinter pillow pywin32 psutil pycryptodome requests pyinstaller
+pip install customtkinter pillow pywin32 psutil cryptography requests pyinstaller
 if %errorlevel% neq 0 (
     echo [!] Failed to install dependencies. Try running as Administrator.
     pause
